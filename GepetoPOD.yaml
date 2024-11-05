@@ -158,7 +158,7 @@ micro_wake_word:
         brightness: 60%
         effect: fast pulse 
   models:
-    - model: https://github.com/Saulogf/GepetoPOD/WakeWord/Hey_Gepeto/hey_zhe_pet_tho.tflite
+    - model: https://github.com/Saulogf/GepetoPOD/blob/main/WakeWord/Hey_Gepeto/hey_zhe_pet_tho.tflite
     
 voice_assistant:
   id: va
