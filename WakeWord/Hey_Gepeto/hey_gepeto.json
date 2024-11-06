@@ -1,15 +1,16 @@
 {
-    "type": "micro",
-    "wake_word": "Hey Gepeto",
-    "author": "Saulo Freitas",
-    "website": "https://www.saulogf.com",
-    "model": "hey_zhe_pet_tho.tflite",
-    "version": 1,
-    "micro": {
+  "type": "micro",
+  "wake_word": "Hey Gepeto",
+  "author": "Saulo Freitas",
+  "website": "https://www.saulogf.com",
+  "model": "hey_zhe_pet_tho.tflite",
+  "trained_languages": ["en"],
+  "version": 1,
+  "micro": {
     "probability_cutoff": 0.77,
     "sliding_window_size": 2,
     "feature_step_size": 10,
     "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7"
+    "minimum_esphome_version": "2024.7.0"
     }
   }
